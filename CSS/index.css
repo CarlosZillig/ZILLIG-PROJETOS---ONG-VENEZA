@@ -1,0 +1,33 @@
+
+.secoes {
+    height: calc(100vh - 45px);
+    width: 100%;
+}
+
+.principal-secao {
+    text-align: center;
+}
+
+.imagem-principal {
+    background-image: url(/Assets/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh - 45px);
+    width: 100%;
+    z-index: -999;
+    position: relative;
+
+    transition: all .1s;
+}
+
+.apresentacao {
+    padding: 4.5em;
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+    font-size: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+

@@ -1,0 +1,51 @@
+.secao-formulario {
+    height: 80vh;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.container-formulario {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 2em;
+    text-align: left;
+
+    border: 0.5px solid rgb(104, 104, 104);
+    border-radius: 10px;
+
+    background-color: rgb(237, 238, 253);
+}
+
+.grupo {
+    margin: 10px;
+}
+
+.campo {
+    border: 0.5px solid rgb(104, 104, 104);
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.alinha-inputs {
+    display: flex;
+}
+
+#email {
+    width: 450px;
+    position: initial;
+}
+
+.titulo-contato {
+    font-size: 20px;
+    padding: 10px;
+}
